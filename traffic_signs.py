@@ -42,7 +42,7 @@ def predict(uploaded, image_placeholder):
     """
     # Update the command to use the correct relative path to detect.py and model weights
     command = [
-        "home/appuser/venv/bin/python", os.path.join(path, "yolov5/detect.py"),
+        "/home/adminuser/venv/bin/python", os.path.join(path, "yolov5/detect.py"),
         "--weights", os.path.join(path, "yolov5/runs/train/exp/weights/best.pt"),
         "--img", "640",
         "--conf", "0.4",
