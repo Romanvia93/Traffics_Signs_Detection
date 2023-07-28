@@ -3,6 +3,7 @@ import subprocess
 import os
 from PIL import Image
 from pathlib import Path
+import torch
 
 # Get the absolute path of the script's directory
 # SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
