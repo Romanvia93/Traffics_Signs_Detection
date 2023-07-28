@@ -1,10 +1,10 @@
+opencv-python-headless
 streamlit
 ultralytics
 numpy
 PILLOW
 torch
 torchvision
-opencv-python
 
 
 # opencv-python
