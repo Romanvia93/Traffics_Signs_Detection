@@ -4,7 +4,8 @@ numpy
 PILLOW
 torch
 torchvision
-opencv-python
+# opencv-python
+opencv-python-headless
 
 # # YOLOv5 requirements
 # # Usage: pip install -r requirements.txt
