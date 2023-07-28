@@ -16,6 +16,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 import cv2
+# you have to check here if cv2 is installed. Use print statements.
 import numpy as np
 import pandas as pd
 import requests
